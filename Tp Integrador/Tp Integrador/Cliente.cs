@@ -10,13 +10,13 @@ namespace CCliente
 {
     public class Cliente : Usuario
     {
-        private Categoria Categoria;
-        private List<Dispositivo> Dispositivos { get; set; }
-        private int NroDocumento { get; set; }
-        private int TelefonoContacto { get; set; }
-        private string TipoDeDocumento { get; set; }
+        public Categoria Categoria;
+        public List<Dispositivo> Dispositivos { get; set; }
+        public int NroDocumento { get; set; }
+        public int TelefonoContacto { get; set; }
+        public string TipoDeDocumento { get; set; }
 
-
+       
         public bool AlgunDispositivoEncendido()
         {
 

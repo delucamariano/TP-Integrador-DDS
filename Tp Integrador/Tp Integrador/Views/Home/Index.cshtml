@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Prueba carga de usuarios";
+}
+
+<h2>Index</h2>
+
+@foreach(var p in Model)
+{
+    <p>@p.Nombre</p>
+    <p>@p.Apellido</p>
+    <p>@p.NombreDeUsuario</p>
+    <p>@p.Password</p>
+    <p>@p.TipoDeDocumento</p>
+    <p>@p.Categoria.Nombre</p>
+}

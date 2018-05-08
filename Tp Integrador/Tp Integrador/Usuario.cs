@@ -8,12 +8,13 @@ namespace CUsuario
 {
     public class Usuario
     {
-        private string Nombre { get; set; }
-        private string Apellido { get; set; }
-        private string Domicilio { get; set; }
-        private string NombreDeUsuario { get; set; }
-        private string Password { get; set; }
-
+        public string Nombre {  get; set; }
+        public string Apellido { get; set; }
+        public string Domicilio { get; set; }
+        public string NombreDeUsuario { get; set; }
+        public string Password { get; set; }
         public Fecha FechaDeAlta;
+       
+
     }
 }

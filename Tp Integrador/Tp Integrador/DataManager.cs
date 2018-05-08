@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Collections.Generic;
 using CCliente;
 using Newtonsoft.Json;
 using CJsonManager;
 using CAdministrador;
 using CDispositivo;
+using System.IO;
+using System;
 
 namespace CDataManager
 {
@@ -16,9 +15,11 @@ namespace CDataManager
         public static List<Administrador> Administradores;
         public static List<Dispositivo> Dispositivos;
 
-        private const string ClientesArchivo = "Tp Integrador/Tp Integrador/clientes.json";
-        private const string AdministradoresArchivo = "Tp Integrador/Tp Integrador/administradores.json";
-        private const string DispositivosArchivo = "Tp Integrador/Tp Integrador/dispositivos.json";
+
+
+        private static string ClientesArchivo = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"JSON Files/clientes.json");
+        private static string AdministradoresArchivo = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"JSON Files/administradores.json");
+        private static string DispositivosArchivo = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"JSON Files/dispositivos.json");
 
         public static void LevantarDatos()
         {

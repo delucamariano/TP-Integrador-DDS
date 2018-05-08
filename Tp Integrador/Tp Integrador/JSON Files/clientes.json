@@ -1,0 +1,43 @@
+[
+
+	{
+  "categoria": {
+    "rangoConsumo": [0,150],
+    "cargoFijoMensual": 18.76,
+    "cargoVariableKwH": 0.644,
+    "nombre": "R1"
+ 	 },
+  "fechaDeAlta": null,
+  "dispositivos": null,
+  "nroDocumento": 12348,
+  "telefonoContacto": 9432,
+  "tipoDeDocumento": "DNI",
+  "nombre": "Juan",
+  "apellido": "Canosa",
+  "domicilio": null,
+  "nombreDeUsuario": "jcanosa",
+  "password": "123456"
+},
+{
+      "categoria": {
+    "rangoConsumo": [0,150],
+    "cargoFijoMensual": 18.76,
+    "cargoVariableKwH": 0.644,
+    "nombre": "R2"
+                   },
+
+  "fechaDeAlta": null,
+  "dispositivos": null,
+  "nroDocumento": 12588,
+  "telefonoContacto": 78932,
+  "tipoDeDocumento": "CI",
+  "nombre": "Gianfranco",
+  "apellido": "Fagotti",
+  "domicilio": null,
+  "nombreDeUsuario": "gfranco",
+  "password": "123456"
+
+}
+
+
+]
